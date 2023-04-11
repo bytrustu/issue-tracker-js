@@ -9,6 +9,7 @@
   "packageManager": "yarn@3.5.0",
   "scripts": {
     "start": "vite serve ./src --port 8080",
+    "build": "vite build ./src",
     "lint": "yarn dlx eslint --fix ./src --config .eslintrc.json",
     "prettier:write": "prettier --write ./src",
     "prettier:check": "prettier --check ./src",
